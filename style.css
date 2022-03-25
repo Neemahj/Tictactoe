@@ -1,0 +1,46 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+
+.ttt-container{
+    padding: 40px;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 400px;
+    background-color: rgb(232, 229, 247);
+
+}
+.inner_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+.grid-item{
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 40px;
+    text-align: center;
+    font-size: x-large;
+    background-color: (255,255,255, 0.8);
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.button{
+    padding: 15px;
+    font-weight: 800;
+    width: 50%;
+    margin-right: 20px;
+}
+.reset{
+    padding: 10px;
+    font-weight: 800;
+    width: 50%;
+    margin-left: 20px;
+}
